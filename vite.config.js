@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base:"/Met_front/",
+  base:"/Met_GUI/",
   build: { outDir: 'docs' },
 });
